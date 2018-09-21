@@ -1,4 +1,4 @@
-### QNX
+# QNX
 
 ## General Information
 

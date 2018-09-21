@@ -1,6 +1,6 @@
 ### QNX
 
-##General Information
+## General Information
 
 QNX was developed in the 1980s by a Canadian company called Quantum Software Systems. It was renamed QNX Software Systems and acquired by BlackBerry in 2010.
 
@@ -11,7 +11,7 @@ A microkernel is a near-minimum amount of software which can provide the mechani
 
  QNX Neutrino has been ported to a number of platforms and now runs on practically any modern CPU that is used in the embedded market. QNX offers a license for non-commercial and academic users.
 
-##Technology
+## Technology
 
 The QNX kernel contains only CPU scheduling, interprocess communication, interrupt redirection and timers. Everything else runs as a user process, including a special process known as proc which performs process creation and memory management by operating in conjunction with the microkernel.
 This is made possible by two key mechanisms. The Subroutine-call type interprocess communication, and a boot loader which can load an image containing not only the kernel but any desired collection of user programs. The result is that there are no device drivers in the kernel.
